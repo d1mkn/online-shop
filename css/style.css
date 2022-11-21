@@ -1,0 +1,231 @@
+* {
+  /* border: solid red 1px; */
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: #f6f8f9;
+  font-family: arial, tahoma, sans-serif;
+  color: #44525e;
+  height: 100%;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-orange {
+  color: #ff7013;
+}
+
+h3 {
+  margin: 20px 0;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 span {
+  color: #ff7013;
+}
+
+/* .wrapper {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+} */
+
+/* ----------------------------------grid------------------------------ */
+
+.container {
+  width: 1200px;
+  margin: 10px auto;
+}
+
+.row {
+  max-width: 1200px;
+  margin: 0 -1.25%;
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.block-1170 {
+  width: 97.5%;
+  float: left;
+  margin: 0 1.25%;
+}
+
+.block-900 {
+  width: 72.5%;
+  max-height: 100px;
+  min-height: 350px;
+  float: right;
+  margin-right: 1.25%;
+  margin-bottom: 1.25%;
+}
+
+.block-670 {
+  width: 58.333%;
+  max-height: 100px;
+  float: left;
+  margin: 0 1.25%;
+}
+
+.block-570 {
+  width: 47.5%;
+  max-height: 100px;
+  float: left;
+  margin: 0 1.25%;
+}
+
+.block-370 {
+  width: 30.83%;
+  float: left;
+  margin: 0 1.25%;
+}
+
+.block-300 {
+  width: 22.5%;
+  max-height: 100px;
+  float: left;
+  margin: 0 1.25%;
+}
+
+.block-270 {
+  width: 22.5%;
+  min-height: 100px;
+  float: left;
+  margin: 0 1.25%;
+}
+
+.block-170 {
+  width: 11.16666%;
+  min-height: 100px;
+  float: left;
+  margin: 0 1.25%;
+}
+
+/* ------------------------------------divider---------------------------------- */
+.divider {
+  background-color: #fff;
+  min-height: 60px; 
+  margin: 80px 0;
+  line-height: 60px;
+  text-align: center;
+}
+
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #ff7013;
+}
+
+/* ------------------------------------best sales------------------------------ */
+.best-sales {
+  background: #fff;
+  padding-left: 0px;
+  position: relative;
+}
+
+.best-sales img {
+  margin-left: 5px;
+  max-width: 29%;
+  /* max-height: 70%; */
+}
+
+.best-sales .vert-line {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 50px;
+  background-color: #34404b33;
+  position: absolute;
+  right: 225px;
+  top: 27px;
+}
+
+.best-sales-description {
+  width: 69%;
+}
+
+.best-sales-description h4 {
+  padding-left: 7.5%;
+}
+
+.best-sales-description .star {
+  margin-left: 25%;
+}
+
+.best-sales-description h4,
+.star {
+  margin-left: 20%;
+}
+
+.best-sales-description .price {
+  color: #ff7013;
+  font-weight: 600;
+  margin-right: 46px;
+}
+
+/* ------------------ news letter ------------------ */
+
+.letter {
+  background-color: #fff;
+  max-height: 100px;
+  margin: 120px 0;
+  padding: 20px;
+}
+
+.letter span {
+  text-transform: uppercase;
+  color: #ff7013;
+  font-weight: bolder;
+  font-size: 25px;
+  float: left;
+  margin-top: 2.5%;
+}
+
+.letter .block-670 p {
+  float: left;
+  margin: auto;
+  margin: 3% 6%;
+  font-style: italic;
+  color: #44525e;
+}
+
+.letter .block-270 img {
+  display: block;
+  float: left;
+  margin: 8.7% 7%;
+}
+
+.letter .block-270 p {
+  float: left;
+  color: #34404b33;
+  margin: 7.5% 0%;
+}
+
+.join-us {
+  background-color: #ff7013;
+  padding: 15px 25px;
+  border: none;
+  color: #fff;
+  margin: 5% 0;
+}

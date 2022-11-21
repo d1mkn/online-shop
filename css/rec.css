@@ -1,0 +1,97 @@
+.block-adw {
+  width: 47.3%;
+  max-height: 100px;
+  background: white;
+  border: 1px solid #eaedef;
+  margin: 0 1.25%;
+  margin-bottom: 80px;
+  display: inline-block;
+  position: relative;
+}
+
+.block-adw .sale {
+  width: 15%;
+  margin: 0 2%;
+  float: left;
+}
+
+.sale-img {
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+}
+
+.block-adw .slogan {
+  width: 40%;
+  min-height: 100px;
+  float: left;
+  margin: 0 2%;
+  margin-top: 7px;
+  text-align: left;
+}
+
+.block-adw .slogan::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 45px;
+  background-color: #34404b33;
+  position: absolute;
+  right: 170px;
+  top: 25px;
+}
+
+.block-adw .slogan h3 {
+  color: #34404b;
+  font-size: 22px;
+  text-align: left;
+  margin: 0;
+  padding-top: 18px;
+}
+
+.block-adw .slogan p {
+  color: #495662;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.block-adw .adw-price {
+  width: 18%;
+  max-height: 100px;
+  float: right;
+  margin: 0 2%;
+  color: #ff6100;
+  font-size: 24px;
+  margin-top: 7px;
+  margin-right: 30px;
+}
+
+.block-adw .adw-price p::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  margin-bottom: -5px;
+  background-image: url(../images/salecart.png);
+}
+
+.adw2 {
+  background-color: #fff;
+  min-height: 100px;
+  width: 47.7%;
+  float: right;
+  border: 1px solid #eaedef;
+  margin: 0 1.25%;
+}
+
+.adw2 p {
+  line-height: 20px;
+  margin-top: 19px;
+}
+
+.adw2 .adwsize {
+  text-align: center;
+  font-size: 14px;
+  color: #eaedef;
+}

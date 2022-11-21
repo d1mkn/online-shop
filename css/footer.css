@@ -1,0 +1,66 @@
+.site-footer {
+    min-width: 1200px;
+    background-color: #fff;
+    padding: 5px 0 5px 0;
+    font-size: 14px;
+    margin: 0px auto;
+    flex: 1 1 auto;
+}
+
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4 {
+    font-size: 16px;
+    color: #ff7013;
+}
+
+.site-footer .pay {
+    float: right;
+}
+
+.red {
+    background-color: red;
+}
+
+ul.footer-nav a {
+    color: #44525e;
+    text-decoration: none;
+}
+
+ul.footer-nav a:hover, li:hover {
+    color: #ff7013;
+}
+
+ul.footer-nav .active {
+    color: #ff7013;
+}
+
+ul.footer-nav li {
+    margin-bottom: 15px;
+}
+
+.payment-img {
+    width: 25px;
+    height: 17px;
+    background-image: url(../images/pay_m.png);
+    display: inline-block;
+    /* background-color: red; */
+}
+
+.amex {
+    background-position: -1px 0px;
+}
+
+.second {
+    background-position: -36px -1px;
+}
+
+.visa {
+    background-position: -72px -1px;
+}
+
+.mastercard {
+    background-position: -108px -1px;
+}
+
+.grey {
+    background-position: -144px -1px;
+}
