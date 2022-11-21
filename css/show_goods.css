@@ -40,9 +40,10 @@
 }
 /* ---------------------------single goods---------------------------- */
 .single-goods {
-  width: 1200px;
+  min-width: 1200px;
   background-color: #fff;
   padding: 105px 0;
+  margin-right: 100px;
 }
 
 .single-goods::after {
@@ -166,7 +167,6 @@
   padding: 20px 30px;
   background-color: #ff5912;
   border-radius: 30px;
-  
 }
 
 /* -----------------------------catalog----------------------- */
